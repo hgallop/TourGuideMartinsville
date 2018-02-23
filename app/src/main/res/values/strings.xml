@@ -8,4 +8,19 @@
     <string name="dine">dine</string>
     <string name="shop">shop</string>
     <string name="stay">stay</string>
+
+    <!--Play Categories -->
+    <string name="motor">motorsports</string>
+    <string name="family">family fun</string>
+    <string name="fish">fishing and boating</string>
+    <string name="out">outfitters</string>
+    <string name="publicland">public lands and hunting</string>
+    <string name="smith">smith river trail system</string>
+    <string name="run">running</string>
+    <string name="cycle">cycling</string>
+    <string name="sport">sports leisure, sports and parks</string>
+    <string name="golf">golfing</string>
+    <string name="stable">stables</string>
+    <string name="club">clubs</string>
+    <string name="fest">smith river fest</string>
 </resources>

@@ -7,9 +7,10 @@
     tools:context="com.example.android.visitmartinsville.MainActivity">
 
 <TextView
+    android:id="@+id/play_option"
     style="@style/MainText"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="88dp"
     android:background="@color/backgroundList"
     tools:text="Motosports"/>
 </LinearLayout>
