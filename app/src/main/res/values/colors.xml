@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fd8307</color>
+    <color name="colorPrimaryDark">#94d60a</color>
+    <color name="colorAccent">#1946ba</color>
+    <color name="shadowColor">#f4f3f5</color>
+
+    <color name="playDark">#89c709</color>
+    <color name="playLight">#94d60a</color>
+    <color name="exploreDark">#fbb811</color>
+    <color name="exploreLight">#fdc742</color>
+    <color name="relaxDark">#77d8c5</color>
+    <color name="relaxLight">#86e1d0</color>
+    <color name="dineDark">#e21c19</color>
+    <color name="dineLight">#f33330</color>
+    <color name="shopDark">#123dae</color>
+    <color name="shopLight">#1946ba</color>
+    <color name="stayDark">#e7750a</color>
+    <color name="stayLight">#fd8103</color>
+
+    <color name="backgroundList">#fcd985</color>
+</resources>

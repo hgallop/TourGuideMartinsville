@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.android.visitmartinsville.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:srcCompat="@drawable/martinsville_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/play_view"
+                style="@style/MainText"
+                android:background="@color/playDark"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="@string/play" />
+
+            <TextView
+                android:id="@+id/explore_view"
+                style="@style/MainText"
+                android:background="@color/exploreDark"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="@string/exp" />
+
+            <TextView
+                android:id="@+id/relax_view"
+                style="@style/MainText"
+                android:background="@color/relaxDark"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="@string/relax" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dine_view"
+                style="@style/MainText"
+                android:background="@color/dineDark"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="@string/dine" />
+
+            <TextView
+                android:id="@+id/shop_view"
+                style="@style/MainText"
+                android:background="@color/shopDark"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="@string/shop" />
+
+            <TextView
+                android:id="@+id/stay_view"
+                style="@style/MainText"
+                android:background="@color/stayDark"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="@string/stay" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

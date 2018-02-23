@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Visit Martinsville</string>
+
+    <!-- Category Titles CHAR_LIMIT[20]-->
+    <string name="play">play</string>
+    <string name="exp">explore</string>
+    <string name="relax">relax</string>
+    <string name="dine">dine</string>
+    <string name="shop">shop</string>
+    <string name="stay">stay</string>
+</resources>
