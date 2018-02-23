@@ -2,4 +2,5 @@
 <resources>
     <dimen name="none">0dp</dimen>
     <dimen name="text_size">24sp</dimen>
+    <dimen name="itemHeight">72dp</dimen>
 </resources>

@@ -10,7 +10,7 @@
     android:id="@+id/play_option"
     style="@style/MainText"
     android:layout_width="match_parent"
-    android:layout_height="88dp"
+    android:layout_height="@dimen/itemHeight"
     android:background="@color/backgroundList"
     tools:text="Motosports"/>
 </LinearLayout>
