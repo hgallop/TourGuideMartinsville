@@ -20,12 +20,12 @@ public class PlayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
 
-        ArrayList playOptions = new ArrayList();
+        ArrayList<String> playOptions = new ArrayList<>();
 
         playOptions.add(getResources().getString(R.string.motor));
         playOptions.add(getResources().getString(R.string.family));
         playOptions.add(getResources().getString(R.string.out));
-        playOptions.add(getResources().getString(R.string.publicland));
+        playOptions.add(getResources().getString(R.string.public_land));
         playOptions.add(getResources().getString(R.string.smith));
         playOptions.add(getResources().getString(R.string.run));
         playOptions.add(getResources().getString(R.string.cycle));
@@ -35,7 +35,8 @@ public class PlayActivity extends AppCompatActivity {
         playOptions.add(getResources().getString(R.string.club));
         playOptions.add(getResources().getString(R.string.fest));
 
-        ArrayAdapter adapter = new ArrayAdapter(this, R.layout.list_item, R.id.play_option, playOptions);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(PlayActivity.this, R.layout.list_item, R.id.play_option, playOptions);
 
         // creates a variable for the list view layout from word_list
         ListView listView = findViewById(R.id.list_view);

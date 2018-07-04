@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -19,6 +19,7 @@
         <item name="android:shadowRadius">3</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:fontFamily" tools:targetApi="16">@font/nunito_extrabold</item>
     </style>
 
 </resources>

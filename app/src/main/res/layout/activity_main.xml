@@ -10,14 +10,16 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:contentDescription="@string/logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/logo_height"
         android:gravity="center"
-        app:srcCompat="@drawable/martinsville_logo" />
+        android:src="@drawable/logo" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:baselineAligned="false"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -30,21 +32,18 @@
                 android:id="@+id/play_view"
                 style="@style/MainText"
                 android:background="@color/playDark"
-                android:fontFamily="@font/nunito_extrabold"
                 android:text="@string/play" />
 
             <TextView
                 android:id="@+id/explore_view"
                 style="@style/MainText"
                 android:background="@color/exploreDark"
-                android:fontFamily="@font/nunito_extrabold"
                 android:text="@string/exp" />
 
             <TextView
                 android:id="@+id/relax_view"
                 style="@style/MainText"
                 android:background="@color/relaxDark"
-                android:fontFamily="@font/nunito_extrabold"
                 android:text="@string/relax" />
         </LinearLayout>
 
@@ -58,21 +57,18 @@
                 android:id="@+id/dine_view"
                 style="@style/MainText"
                 android:background="@color/dineDark"
-                android:fontFamily="@font/nunito_extrabold"
                 android:text="@string/dine" />
 
             <TextView
                 android:id="@+id/shop_view"
                 style="@style/MainText"
                 android:background="@color/shopDark"
-                android:fontFamily="@font/nunito_extrabold"
                 android:text="@string/shop" />
 
             <TextView
                 android:id="@+id/stay_view"
                 style="@style/MainText"
                 android:background="@color/stayDark"
-                android:fontFamily="@font/nunito_extrabold"
                 android:text="@string/stay" />
         </LinearLayout>
     </LinearLayout>

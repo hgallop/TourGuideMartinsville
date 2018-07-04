@@ -8,13 +8,14 @@
     <string name="dine">dine</string>
     <string name="shop">shop</string>
     <string name="stay">stay</string>
+    <string name="logo">MHC Tourism Logo</string>
 
     <!--Play Categories -->
     <string name="motor">motorsports</string>
     <string name="family">family fun</string>
     <string name="fish">fishing and boating</string>
     <string name="out">outfitters</string>
-    <string name="publicland">public lands and hunting</string>
+    <string name="public_land">public lands and hunting</string>
     <string name="smith">smith river trail system</string>
     <string name="run">running</string>
     <string name="cycle">cycling</string>
@@ -23,4 +24,51 @@
     <string name="stable">stables</string>
     <string name="club">clubs</string>
     <string name="fest">smith river fest</string>
+    
+    <!--Explore Categories-->
+    <string name="smith_towns">smith river small towns</string>
+    <string name="art_studios">art galleries and studios</string>
+    <string name="fairy">fairy stones</string>
+    <string name="agri">agritourism</string>
+    <string name="genealogy">genealogy</string>
+    <string name="historic">historic buildings</string>
+    <string name="cemeteries">historic cemeteries</string>
+    <string name="sites">historic sites</string>
+    <string name="theatre">live theatre</string>
+    <string name="museums">museums</string>
+    <string name="music">music</string>
+    <string name="pub_art">public art</string>
+    <string name="tours">walking tours</string>
+    
+    <!--Dine Categories-->
+    <string name="cafes">cafes and ice cream</string>
+    <string name="amer_cuis">american cuisine</string>
+    <string name="asian">asian</string>
+    <string name="deli">bakery and deli</string>
+    <string name="bbq">bbq</string>
+    <string name="italian">italian</string>
+    <string name="mexi">mexican</string>
+    <string name="southern">southern cuisine</string>
+    <string name="sea_steak">seafood and steaks</string>
+    
+    <!--Shop Categories-->
+    <string name="antique">antiques and consignment</string>
+    <string name="gift">gift shops</string>
+    <string name="cloths">clothing</string>
+    <string name="furniture">furniture outlets</string>
+    <string name="specialty">specialty foods</string>
+    <string name="shops">specialty shops</string>
+    <string name="sporting">sporting goods</string>
+    
+    <!--Stay Categories-->
+    <string name="hotels">hotels</string>
+    <string name="b_and_b">bed and breakfasts</string>
+    <string name="c_and_c">cottages and cabins</string>
+    <string name="camp">camping</string>
+    
+    <!--Relax Categories-->
+    <string name="brewery">brewery</string>
+    <string name="wine">wineries</string>
+    <string name="nature">nature therapy</string>
+    <string name="spas">spas</string>
 </resources>
